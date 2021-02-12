@@ -21,6 +21,10 @@ Route::get('/discord', function () {
     return view('discord.welcome');
 });
 
+Route::get('/social', function () {
+    return view('social.index');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
