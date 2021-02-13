@@ -25,6 +25,10 @@ Route::get('/social', function () {
     return view('social.index');
 });
 
+Route::get('/panel', function () {
+    return view('google_home.index');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
