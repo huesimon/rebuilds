@@ -22,8 +22,8 @@
 
 <body class="font-sans antialiased">
     <main>
-        <div class="flex flex-col h-screen mx-auto md:max-w-2xl">
-            <div class="flex flex-row justify-between bg-red-300">
+        <div class="flex flex-col h-screen mx-auto md:max-w-2xl text-white">
+            <div class=" flex flex-row justify-between bg-gray-600">
                 <div class="flex flex-row items-center">
                     <a href="#" class="">
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -49,11 +49,11 @@
                 </div>
             </div>
             {{-- Navbar end --}}
-            <div class="flex-none bg-red-600 overflow-x-auto">
+            <div class="flex-none bg-black overflow-x-auto">
                 <ul class="flex space-x-2 p-2 ">
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="relative bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
-                            <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
+                            <a href="#" class="block bg-black p-1 rounded-full transform transition hover:rotate-6">
                                 <img src="https://placekitten.com/200/206" alt="cat"
                                     class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
@@ -64,7 +64,7 @@
                     </li>
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
-                            <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
+                            <a href="#" class="block bg-black p-1 rounded-full transform transition hover:rotate-6">
                                 <img src="https://placekitten.com/200/200" alt="cat"
                                     class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
@@ -73,7 +73,7 @@
                     </li>
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
-                            <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
+                            <a href="#" class="block bg-black p-1 rounded-full transform transition hover:rotate-6">
                                 <img src="https://placekitten.com/200/200" alt="cat"
                                     class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
@@ -82,7 +82,7 @@
                     </li>
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
-                            <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
+                            <a href="#" class="block bg-black p-1 rounded-full transform transition hover:rotate-6">
                                 <img src="https://placekitten.com/200/200" alt="cat"
                                     class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
@@ -91,7 +91,7 @@
                     </li>
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
-                            <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
+                            <a href="#" class="block bg-black p-1 rounded-full transform transition hover:rotate-6">
                                 <img src="https://placekitten.com/200/200" alt="cat"
                                     class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
@@ -101,25 +101,35 @@
                 </ul>
             </div>
             {{-- Stories end --}}
-            <div class="bg-green-300 overflow-y-auto h-full">
-                <div class="bg-red-300 flex flex-row justify-between items-center text-white font-semibold">
+            <div class="bg-black overflow-y-auto h-full">
+                {{-- Post start --}}
+                <div class="flex flex-row justify-between items-center text-white font-semibold ml-2 mb-2">
                     <div class="flex flex-row items-center space-x-2">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-0.5">
-                            <a href="#" class="block bg-white p-0.5 rounded-full transform transition hover:rotate-6">
+                            <a href="#" class="block bg-black p-0.5 rounded-full transform transition hover:rotate-6">
                                 <img src="https://placekitten.com/200/200" alt="cat" class="h-8 w-8 rounded-full">
                             </a>
                         </div>
                         <div class="text-base">random_cat_2010</div>
                     </div>
-                    <div class="">menu</div>
+                    <div class="">
+                        <a href="#" class="">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="bg-green-500">
+                <div class="">
                     <img class="min-w-full"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
                         alt="cat">
                 </div>
-                <div class="bg-blue-500 flex flex-row justify-between items-center text-white">
-                    <div class="flex flex-row items-center">
+                <div class="flex flex-row justify-between items-center text-white m-2">
+                    <div class="flex flex-row items-center space-x-2">
                         <a href="#" class="">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -145,7 +155,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="flex flex-row items-center">
+                    <div class="flex flex-row items-center space-x-2">
                         <a href="#" class="">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -164,34 +174,49 @@
                     </div>
                 </div>
                 {{-- post buttons --}}
-                <div class="bg-gray-500 flex flex-row space-x-2 mb-2">
+                <div class="flex flex-row space-x-2 mb-2 ml-2">
                     <div class="font-semibold">other_random_cat</div>
                     <div class="">really awesome comment</div>
                 </div>
                 {{-- comment end --}}
-                <div class="bg-gray-500 flex flex-row space-x-2 mb-2">
+                <div class="bg-gray-500 flex flex-row space-x-2 mb-2 ml-2">
                     <div class="font-semibold">other_random_cat</div>
                     <div class="">really awesome comment</div>
                 </div>
                 {{-- comment end --}}
                 {{-- Post end --}}
 
-                <div class="bg-red-300 flex flex-row justify-between items-center text-white font-semibold">
+
+
+
+                {{-- post start --}}
+                <div class="flex flex-row justify-between items-center text-white font-semibold ml-2 mb-2">
                     <div class="flex flex-row items-center space-x-2">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-0.5">
-                            <a href="#" class="block bg-white p-0.5 rounded-full transform transition hover:rotate-6">
+                            <a href="#" class="block bg-black p-0.5 rounded-full transform transition hover:rotate-6">
                                 <img src="https://placekitten.com/200/200" alt="cat" class="h-8 w-8 rounded-full">
                             </a>
                         </div>
                         <div class="text-base">random_cat_2010</div>
                     </div>
-                    <div class="">menu</div>
+                    <div class="">
+                        <a href="#" class="">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="bg-green-500">
-                    <img class="min-w-full" src="https://placekitten.com/200/206" alt="cat">
+                <div class="">
+                    <img class="min-w-full"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
+                        alt="cat">
                 </div>
-                <div class="bg-blue-500 flex flex-row justify-between items-center text-white">
-                    <div class="flex flex-row items-center">
+                <div class="flex flex-row justify-between items-center text-white m-2">
+                    <div class="flex flex-row items-center space-x-2">
                         <a href="#" class="">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -217,7 +242,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="flex flex-row items-center">
+                    <div class="flex flex-row items-center space-x-2">
                         <a href="#" class="">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -236,12 +261,12 @@
                     </div>
                 </div>
                 {{-- post buttons --}}
-                <div class="bg-gray-500 flex flex-row space-x-2 mb-2">
+                <div class="flex flex-row space-x-2 mb-2 ml-2">
                     <div class="font-semibold">other_random_cat</div>
                     <div class="">really awesome comment</div>
                 </div>
                 {{-- comment end --}}
-                <div class="bg-gray-500 flex flex-row space-x-2 mb-2">
+                <div class="bg-gray-500 flex flex-row space-x-2 mb-2 ml-2">
                     <div class="font-semibold">other_random_cat</div>
                     <div class="">really awesome comment</div>
                 </div>
