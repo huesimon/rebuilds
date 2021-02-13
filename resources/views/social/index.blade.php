@@ -22,7 +22,7 @@
 
 <body class="font-sans antialiased">
     <main>
-        <div class="flex flex-col h-screen">
+        <div class="flex flex-col h-screen mx-auto md:max-w-2xl">
             <div class="flex flex-row justify-between bg-red-300">
                 <div class="flex flex-row items-center">
                     <a href="#" class="">
@@ -54,7 +54,8 @@
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="relative bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
                             <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
-                                <img src="https://placekitten.com/200/206" alt="cat" class="h-24 w-24 rounded-full">
+                                <img src="https://placekitten.com/200/206" alt="cat"
+                                    class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
                             <button
                                 class="absolute bottom-0 right-2 bg-blue-500 h-8 w-8 rounded-full text-white text-2xl font-semibold border-4 border-white flex justify-center items-center font-mono hover:bg-blue-700">+</button>
@@ -64,7 +65,8 @@
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
                             <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
-                                <img src="https://placekitten.com/200/200" alt="cat" class="h-24 w-24 rounded-full">
+                                <img src="https://placekitten.com/200/200" alt="cat"
+                                    class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
                         </div>
                         <a href="" class="">Username</a>
@@ -72,7 +74,8 @@
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
                             <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
-                                <img src="https://placekitten.com/200/200" alt="cat" class="h-24 w-24 rounded-full">
+                                <img src="https://placekitten.com/200/200" alt="cat"
+                                    class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
                         </div>
                         <a href="" class="">Username</a>
@@ -80,7 +83,8 @@
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
                             <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
-                                <img src="https://placekitten.com/200/200" alt="cat" class="h-24 w-24 rounded-full">
+                                <img src="https://placekitten.com/200/200" alt="cat"
+                                    class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
                         </div>
                         <a href="" class="">Username</a>
@@ -88,7 +92,8 @@
                     <li class="flex flex-col flex-none items-center space-y-1">
                         <div class="bg-gradient-to-tr from-yellow-400 to-purple-600 rounded-full p-1">
                             <a href="#" class="block bg-white p-1 rounded-full transform transition hover:rotate-6">
-                                <img src="https://placekitten.com/200/200" alt="cat" class="h-24 w-24 rounded-full">
+                                <img src="https://placekitten.com/200/200" alt="cat"
+                                    class="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full">
                             </a>
                         </div>
                         <a href="" class="">Username</a>
